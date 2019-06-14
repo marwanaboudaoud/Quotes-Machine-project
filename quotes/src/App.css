@@ -1,0 +1,108 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  background-color: var(--main-bg-color);
+  font-family:  serif;
+  font-size: 18px;
+  color: var(--main-txt-color);
+  padding-bottom: 50px;
+}
+
+.buttonDiv ,.imgDiv{
+  float: left;
+  margin-left: 170px;
+
+}
+
+.title {
+  padding: 20px;
+  color: #fff;
+  font-family:  cursive;
+  font-weight: 400;
+}
+
+.quote-box {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 70vh;
+  position: relative;
+}
+
+.text {
+  text-align: center;
+  padding: 2% 20%;
+  font-style: italic;
+  height: 30vh;
+}
+
+.author {
+  text-align: right;
+  padding: 2% 5%;
+  font-size: 14px;
+}
+
+.new-quote{
+  border: none;
+  border-radius: 5px;
+  background-color: var(--main-bg-color);
+  color: #fff;
+}
+
+
+
+.new-quote:hover {
+  background-color: #fff;
+  color: var(--main-txt-color);
+  border: 1px solid var(--main-txt-color);
+}
+
+img:hover{
+  width:70px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .main {
+    font-size: 25px;
+  }
+
+  .quote-box {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .title {
+    padding: 50px;
+  }
+
+  .text {
+    padding: 2% 10%;
+    height: 20vh;
+  }
+
+  .author {
+    padding: 2% 10%;
+    font-size: 16px;
+  }
+
+  .quote-box {
+    height: 50vh;
+  }
+
+  .new-quote{
+    width: 100px;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    
+  }
+
+  img{
+    width: 65px; 
+  }
+
+}
